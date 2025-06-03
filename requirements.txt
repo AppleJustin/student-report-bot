@@ -1,6 +1,6 @@
 pandas
 matplotlib
-fpdf
+fpdf2
 gspread
 google-auth
 google-auth-oauthlib
