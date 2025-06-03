@@ -1,0 +1,14 @@
+pandas
+matplotlib
+fpdf
+gspread
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+requests
+line-bot-sdk
+flask
+shutil
+re
+os
+csv
