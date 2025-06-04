@@ -45,9 +45,3 @@ def line_callback():
     except Exception as e:
         print(f"webhook 錯誤: {e}, 原始資料: {request.data}")
         return "OK", 200
-
-if __name__ == "__main__":
-    # Railway 會自動用 PORT 這個環境變數（但本地測試用5000）
-    import os
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
