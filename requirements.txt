@@ -8,3 +8,4 @@ google-auth-httplib2
 requests
 line-bot-sdk
 flask
+gunicorn
